@@ -1,0 +1,81 @@
+/* INIZIALIZZAZIONE */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* GENERAL */
+html {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+/* BUBBLES */
+section.bubbles {
+  position: relative;
+  background-color: #EA5B09;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+section.bubbles h2 {
+  font-size: 3rem;
+  color: #FFFFFF;
+  z-index: 10;
+  text-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+}
+section.bubbles div.bubble {
+  position: absolute;
+  background-color: #EA5B09;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 10px 15px 15px 10px rgba(0,0,0,0.2);
+}
+/* TEXT-ANIMATION */
+section.text-animation {
+  position: relative;
+  background-color: #FFFFFF;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+section.text-animation h2.text-animation {
+  position: relative;
+  font-size: 3rem;
+  color: #EA5B09;
+  text-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+  -webkit-box-reflect: below -0.5rem linear-gradient(transparent, black);
+}
+section.text-animation h2.text-animation span {
+  display: inline-block;
+}
+/* PARAGR */
+section.paragr {
+  position: relative;
+  background-color: #EA5B09;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+section.paragr div.paragr {
+  position: relative;
+  text-align: center;
+  width: 80%;
+}
+section.paragr div.paragr {
+  position: relative;
+  font-size: 2rem;
+  color: #FFFFFF;
+}
+section.paragr div.paragr span {
+  display: inline-block;
+}
